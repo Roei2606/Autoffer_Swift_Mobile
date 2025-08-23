@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F9F561EE2E59D4E200B285F1 /* ProjectsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F561ED2E59D4E200B285F1 /* ProjectsSDK */; };
+		F9F561FB2E59DD9800B285F1 /* ProjectsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F561FA2E59DD9800B285F1 /* ProjectsSDK */; };
+		F9F561FE2E59DDC100B285F1 /* ChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F561FD2E59DDC100B285F1 /* ChatSDK */; };
+		F9F562012E59DDDC00B285F1 /* RSocketSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F562002E59DDDC00B285F1 /* RSocketSDK */; };
+		F9F562042E59DDF600B285F1 /* LocalProjectSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F562032E59DDF600B285F1 /* LocalProjectSDK */; };
+		F9F562072E59DE0E00B285F1 /* ProjectsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F562062E59DE0E00B285F1 /* ProjectsSDK */; };
+		F9F5620C2E59F50C00B285F1 /* AdsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F5620B2E59F50C00B285F1 /* AdsSDK */; };
+		F9F5620F2E59F55D00B285F1 /* CoreModelsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9F5620E2E59F55D00B285F1 /* CoreModelsSDK */; };
+		F9F562122E5A0D2A00B285F1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F9F562112E5A0D2A00B285F1 /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F93B346E2E479BEE001284BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F5620C2E59F50C00B285F1 /* AdsSDK in Frameworks */,
+				F9F561FE2E59DDC100B285F1 /* ChatSDK in Frameworks */,
+				F9F562122E5A0D2A00B285F1 /* Lottie in Frameworks */,
+				F9F562012E59DDDC00B285F1 /* RSocketSDK in Frameworks */,
+				F9F561EE2E59D4E200B285F1 /* ProjectsSDK in Frameworks */,
+				F9F5620F2E59F55D00B285F1 /* CoreModelsSDK in Frameworks */,
+				F9F561FB2E59DD9800B285F1 /* ProjectsSDK in Frameworks */,
+				F9F562042E59DDF600B285F1 /* LocalProjectSDK in Frameworks */,
+				F9F562072E59DE0E00B285F1 /* ProjectsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 				F93B34592E479BED001284BA /* AutofferApp */,
 				F93B34702E479BEE001284BA /* AutofferAppTests */,
 				F93B347A2E479BEE001284BA /* AutofferAppUITests */,
+				F9F561F22E59DA6C00B285F1 /* Frameworks */,
 				F93B34582E479BED001284BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +125,13 @@
 				F93B34772E479BEE001284BA /* AutofferAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F561F22E59DA6C00B285F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +154,15 @@
 			);
 			name = AutofferApp;
 			packageProductDependencies = (
+				F9F561ED2E59D4E200B285F1 /* ProjectsSDK */,
+				F9F561FA2E59DD9800B285F1 /* ProjectsSDK */,
+				F9F561FD2E59DDC100B285F1 /* ChatSDK */,
+				F9F562002E59DDDC00B285F1 /* RSocketSDK */,
+				F9F562032E59DDF600B285F1 /* LocalProjectSDK */,
+				F9F562062E59DE0E00B285F1 /* ProjectsSDK */,
+				F9F5620B2E59F50C00B285F1 /* AdsSDK */,
+				F9F5620E2E59F55D00B285F1 /* CoreModelsSDK */,
+				F9F562112E5A0D2A00B285F1 /* Lottie */,
 			);
 			productName = AutofferApp;
 			productReference = F93B34572E479BED001284BA /* AutofferApp.app */;
@@ -208,6 +246,15 @@
 			);
 			mainGroup = F93B344E2E479BED001284BA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F9F561FC2E59DDC100B285F1 /* XCLocalSwiftPackageReference "SDKs/ChatSDK" */,
+				F9F561FF2E59DDDC00B285F1 /* XCLocalSwiftPackageReference "SDKs/RSocketSDK" */,
+				F9F562022E59DDF600B285F1 /* XCLocalSwiftPackageReference "SDKs/LocalProjectSDK" */,
+				F9F562052E59DE0E00B285F1 /* XCLocalSwiftPackageReference "SDKs/ProjectsSDK" */,
+				F9F5620A2E59F50C00B285F1 /* XCLocalSwiftPackageReference "SDKs/AdsSDK" */,
+				F9F5620D2E59F55D00B285F1 /* XCLocalSwiftPackageReference "SDKs/CoreModelsSDK" */,
+				F9F562102E5A0D2A00B285F1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F93B34582E479BED001284BA /* Products */;
 			projectDirPath = "";
@@ -294,9 +341,9 @@
 				INFOPLIST_FILE = AutofferApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +369,9 @@
 				INFOPLIST_FILE = AutofferApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +618,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F9F561FC2E59DDC100B285F1 /* XCLocalSwiftPackageReference "SDKs/ChatSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/ChatSDK;
+		};
+		F9F561FF2E59DDDC00B285F1 /* XCLocalSwiftPackageReference "SDKs/RSocketSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/RSocketSDK;
+		};
+		F9F562022E59DDF600B285F1 /* XCLocalSwiftPackageReference "SDKs/LocalProjectSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/LocalProjectSDK;
+		};
+		F9F562052E59DE0E00B285F1 /* XCLocalSwiftPackageReference "SDKs/ProjectsSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/ProjectsSDK;
+		};
+		F9F5620A2E59F50C00B285F1 /* XCLocalSwiftPackageReference "SDKs/AdsSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/AdsSDK;
+		};
+		F9F5620D2E59F55D00B285F1 /* XCLocalSwiftPackageReference "SDKs/CoreModelsSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SDKs/CoreModelsSDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9F562102E5A0D2A00B285F1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9F561ED2E59D4E200B285F1 /* ProjectsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsSDK;
+		};
+		F9F561FA2E59DD9800B285F1 /* ProjectsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsSDK;
+		};
+		F9F561FD2E59DDC100B285F1 /* ChatSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChatSDK;
+		};
+		F9F562002E59DDDC00B285F1 /* RSocketSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RSocketSDK;
+		};
+		F9F562032E59DDF600B285F1 /* LocalProjectSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalProjectSDK;
+		};
+		F9F562062E59DE0E00B285F1 /* ProjectsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsSDK;
+		};
+		F9F5620B2E59F50C00B285F1 /* AdsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdsSDK;
+		};
+		F9F5620E2E59F55D00B285F1 /* CoreModelsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreModelsSDK;
+		};
+		F9F562112E5A0D2A00B285F1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9F562102E5A0D2A00B285F1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F93B344F2E479BED001284BA /* Project object */;
 }
