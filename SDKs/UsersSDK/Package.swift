@@ -8,19 +8,23 @@ let package = Package(
         .library(name: "UsersSDK", targets: ["UsersSDK"])
     ],
     dependencies: [
-        .package(name: "CoreModelsSDK", path: "../CoreModelsSDK"), // <-- note the dot
-        .package(name: "RSocketSDK",    path: "../RSocketSDK")     // <-- note the dot
+        // לוקאלי (התאם נתיבים לפי המבנה אצלך):
+        .package(path: "../CoreModelsSDK"),
+        .package(path: "../RSocketSDK")
+        
     ],
     targets: [
         .target(
             name: "UsersSDK",
-            dependencies: ["CoreModelsSDK", "RSocketSDK"],
-            path: "Sources/UsersSDK"
+            dependencies: [
+                .product(name: "CoreModelsSDK", package: "CoreModelsSDK"),
+                .product(name: "RSocketSDK",   package: "RSocketSDK")
+            ],
+            path: "Sources"
         ),
         .testTarget(
             name: "UsersSDKTests",
-            dependencies: ["UsersSDK"],
-            path: "Tests/UsersSDKTests"
+            dependencies: ["UsersSDK"]
         )
     ]
 )

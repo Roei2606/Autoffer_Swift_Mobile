@@ -3,9 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CoreModelsSDK",
-    platforms: [
-        .iOS(.v16)
-    ],
+    platforms: [.iOS(.v16)],
     products: [
         .library(name: "CoreModelsSDK", targets: ["CoreModelsSDK"])
     ],

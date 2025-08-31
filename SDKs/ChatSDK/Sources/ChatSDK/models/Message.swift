@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Message: Codable, Hashable {
+public struct Message: Codable, Hashable, Sendable {
     public var id: String?
     public var chatId: String?
     public var senderId: String?

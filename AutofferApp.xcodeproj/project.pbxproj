@@ -41,7 +41,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F93B347F2E479BEE001284BA /* Exceptions for "AutofferApp" folder in "AutofferApp" target */ = {
+		F9F5633A2E5B276300B285F1 /* Exceptions for "AutofferApp" folder in "AutofferApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -54,7 +54,7 @@
 		F93B34592E479BED001284BA /* AutofferApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F93B347F2E479BEE001284BA /* Exceptions for "AutofferApp" folder in "AutofferApp" target */,
+				F9F5633A2E5B276300B285F1 /* Exceptions for "AutofferApp" folder in "AutofferApp" target */,
 			);
 			path = AutofferApp;
 			sourceTree = "<group>";
@@ -67,6 +67,61 @@
 		F93B347A2E479BEE001284BA /* AutofferAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AutofferAppUITests;
+			sourceTree = "<group>";
+		};
+		F9F562BC2E5AFBD500B285F1 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9F562BD2E5AFC2C00B285F1 /* DesignSystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		F9F562BE2E5AFC3700B285F1 /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F9F562C22E5AFC7800B285F1 /* Navigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F9F562C32E5AFC8300B285F1 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F9F562C92E5AFD6F00B285F1 /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F9F562CA2E5AFD7E00B285F1 /* Chats */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		F9F562CF2E5AFE0800B285F1 /* Projects */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		F9F562D52E5AFE9200B285F1 /* UserDirectory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UserDirectory;
+			sourceTree = "<group>";
+		};
+		F9F562D62E5AFEA800B285F1 /* Ads */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		F9F562D72E5AFEBE00B285F1 /* Profile */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -107,6 +162,17 @@
 		F93B344E2E479BED001284BA = {
 			isa = PBXGroup;
 			children = (
+				F9F562D72E5AFEBE00B285F1 /* Profile */,
+				F9F562D62E5AFEA800B285F1 /* Ads */,
+				F9F562D52E5AFE9200B285F1 /* UserDirectory */,
+				F9F562CF2E5AFE0800B285F1 /* Projects */,
+				F9F562CA2E5AFD7E00B285F1 /* Chats */,
+				F9F562C92E5AFD6F00B285F1 /* Home */,
+				F9F562C32E5AFC8300B285F1 /* Features */,
+				F9F562C22E5AFC7800B285F1 /* Navigation */,
+				F9F562BE2E5AFC3700B285F1 /* Data */,
+				F9F562BD2E5AFC2C00B285F1 /* DesignSystem */,
+				F9F562BC2E5AFBD500B285F1 /* Resources */,
 				F93B34592E479BED001284BA /* AutofferApp */,
 				F93B34702E479BEE001284BA /* AutofferAppTests */,
 				F93B347A2E479BEE001284BA /* AutofferAppUITests */,
@@ -149,6 +215,17 @@
 			);
 			fileSystemSynchronizedGroups = (
 				F93B34592E479BED001284BA /* AutofferApp */,
+				F9F562BC2E5AFBD500B285F1 /* Resources */,
+				F9F562BD2E5AFC2C00B285F1 /* DesignSystem */,
+				F9F562BE2E5AFC3700B285F1 /* Data */,
+				F9F562C22E5AFC7800B285F1 /* Navigation */,
+				F9F562C32E5AFC8300B285F1 /* Features */,
+				F9F562C92E5AFD6F00B285F1 /* Home */,
+				F9F562CA2E5AFD7E00B285F1 /* Chats */,
+				F9F562CF2E5AFE0800B285F1 /* Projects */,
+				F9F562D52E5AFE9200B285F1 /* UserDirectory */,
+				F9F562D62E5AFEA800B285F1 /* Ads */,
+				F9F562D72E5AFEBE00B285F1 /* Profile */,
 			);
 			name = AutofferApp;
 			packageProductDependencies = (
@@ -341,7 +418,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,7 +446,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
